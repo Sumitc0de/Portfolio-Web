@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <------------------------------------------------ Fonts Link ------------------------------------------>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- ------------------------------------------------ Header part --------------------------------------------------- -->
+    <header>
+        <h1>
+            Port<span>folio.</span>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-bar">
+            <ion-icon name="menu" class="icons menu"></ion-icon>
+            <ion-icon name="close" class="icons close"></ion-icon>
+        </div>
+    </header>
+    <!-- ------------------------------------------------ home part --------------------------------------------------- -->
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="left-container home-box">
+                <h1 class="main-head">Hi! I'm Sumit Vishwakarma. </h1>
+                <div class="change-txt">
+                    <h2>And I'm</h2>
+                    &nbsp;
+                    <h2><span id="element"></span></h2>
+                </div>
+                <p>Skilled <span>Web Developer</span> proficient in HTML, CSS, and JavaScript. Experienced
+                    <span>YouTuber</span> and <span>Video Editor</span> creating engaging, high-quality content.
+                    Expert in 3D animation with <span>Blender</span>. Passionate about combining technical and
+                    creative skills to deliver compelling digital experiences.
+                </p>
+                <div class="btn-box">
+                    <a href=""><button class="btn">
+                            Download CV
+                        </button></a>
+                    <a href=""> <button class="btn active">
+                            Hire Me Now!
+                        </button></a>
+                </div>
+                <div class="social-icons">
+                    <a href=""><ion-icon class="social-links" name="logo-facebook"></ion-icon></a>
+                    <a href=""><ion-icon class="social-links" name="logo-instagram"></ion-icon></a>
+                    <a href=""><ion-icon class="social-links" name="logo-youtube"></ion-icon></a>
+                    <a href=""><ion-icon class="social-links" name="globe-sharp"></ion-icon></a>
+                </div>
+            </div>
+            <div class="right-container home-box">
+                <div class="img-box">
+                    <img src="/Sumit.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id=""></section>
+
+
+
+    <!-- <------------------------------- Icon Script Link --------------------------------------->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer,', '3D Animator,', '3D Modeller,', 'YouTuber,', '&amp; a Video Editor.'],
+            typeSpeed: 50,
+        });
+
+
+
+
+    </script>
+</body>
+
+</html>
