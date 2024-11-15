@@ -17,21 +17,27 @@
 </head>
 
 <body>
+    <!-- <div id="page-loader">
+        <div id="loader"></div>
+    </div> -->
     <!-- ------------------------------------------------ Header part --------------------------------------------------- -->
-    <header>
-        <h1>
+    <header class="main-header">
+        <h1 class="main-title">
             Port<span>folio.</span>
         </h1>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About </a></li>
+                <!-- <li><a href="#service">Services</a></li>  -->
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <div class="resume-box">
+            <button id="resume">Download CV</button>
+        </div>
         <div class="menu-bar">
             <ion-icon name="menu" class="icons menu"></ion-icon>
             <ion-icon name="close" class="icons close"></ion-icon>
@@ -53,28 +59,298 @@
                     creative skills to deliver compelling digital experiences.
                 </p>
                 <div class="btn-box">
-                    <a href=""><button class="btn">
-                            Download CV
+                    <a href="#contact"><button class="btn">
+                            Let's get Started
                         </button></a>
-                    <a href=""> <button class="btn active">
-                            Hire Me Now!
-                        </button></a>
+                    <a href=""> <button class="btn" id="resume1">Download CV</button></a>
                 </div>
                 <div class="social-icons">
-                    <a href=""><ion-icon class="social-links" name="logo-facebook"></ion-icon></a>
-                    <a href=""><ion-icon class="social-links" name="logo-instagram"></ion-icon></a>
-                    <a href=""><ion-icon class="social-links" name="logo-youtube"></ion-icon></a>
-                    <a href=""><ion-icon class="social-links" name="globe-sharp"></ion-icon></a>
+                    <a href="https://www.facebook.com/profile.php?id=100089840471036&mibextid=ZbWKwL"><ion-icon class="social-links facebook" name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/develop_with_sumit?utm_source=qr&igsh=cm5hZjA3c3oyZHBl"><ion-icon class="social-links instagram" name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.youtube.com/@3dartisans00"><ion-icon class="social-links youtube" name="logo-youtube"></ion-icon></a>
+                    <a href="index.html"><ion-icon class="social-links globe" name="globe-sharp"></ion-icon></a>
                 </div>
             </div>
             <div class="right-container home-box">
                 <div class="img-box">
-                    <img src="Sumit.png" alt="">
+                    <img src="/Sumit.png" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <section class="about" id=""></section>
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="left-about about-box">
+                <div class="image-box">
+                    <img src="/Sumit.png" alt="">
+                </div>
+            </div>
+            <div class="right-about about-box">
+                <h1>What I Do.</h1>
+                <h3>I am Frontend Devloper</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fugiat quibusdam consectetur debitis
+                    nostrum asperiores voluptatum, modi ad explicabo id aperiam quaerat repellendus iusto voluptas
+                    delectus temporibus officia aut voluptates.</p>
+                <a href="#"><button class="read-more ">Read More</button></a>
+                <a href="https://linkedin.com"><button id="linkedin">Linkedin</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="service" id="service">
+        <div class="service-container">
+            <h4>What am I going to do for you?</h4>
+                <h1>Our Services</h1>
+                <div class="service-box">
+                    <div class="content">
+                        <div class="img-display">
+                           <img src="/s1.jpg" alt="">
+                        </div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab cumque cum rerum voluptatem
+                            maxime rem, quo sint deleniti culpa saepe?</p>
+                        <div class="learn-box"><a href=""><button class="learn-btn">Learn More</button></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="img-display">
+                           <img src="/s1.jpg" alt="">
+                        </div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab cumque cum rerum voluptatem
+                            maxime rem, quo sint deleniti culpa saepe?</p>
+                        <div class="learn-box"><a href=""><button class="learn-btn">Learn More</button></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="img-display">
+                            <img src="/s1.jpg" alt="">
+                        </div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab cumque cum rerum voluptatem
+                            maxime rem, quo sint deleniti culpa saepe?</p>
+                        <div class="learn-box"><a href=""><button class="learn-btn">Learn More</button></a>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+        
+    </section> -->
+    <section id="skills" class="skills">
+        <div class="skills-container">
+            <h2>My Skills</h2>
+            <div class="skills-box">
+                <div class="skill"><img width="144" height="144" src="https://img.icons8.com/color/144/html-5--v1.png"
+                        alt="html-5--v1" />
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill">
+                    <img width="144" height="144" src="https://img.icons8.com/color/144/css3.png" alt="css3" />
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill">
+                    <img width="144" height="144" src="https://img.icons8.com/color/144/javascript--v1.png"
+                        alt="javascript--v1" />
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill"><img width="144" height="144"
+                        src="https://img.icons8.com/fluency/144/c-plus-plus-logo.png" alt="c-plus-plus-logo" />
+                    <h3>C++</h3>
+                </div>
+                <div class="skill"><img width="144" height="144" src="https://img.icons8.com/fluency/144/python.png"
+                        alt="python" />
+                    <h3>Python</h3>
+                </div>
+                <div class="skill"><img width="144" height="144"
+                        src="https://img.icons8.com/color/144/adobe-premiere-pro--v1.png"
+                        alt="adobe-premiere-pro--v1" />
+                    <h3>Premier pro</h3>
+                </div>
+                <div class="skill">
+                    <img width="144" height="144" src="https://img.icons8.com/color/144/adobe-after-effects--v1.png"
+                        alt="adobe-after-effects--v1" />
+                    <h3>After Effect</h3>
+                </div>
+                <div class="skill">
+                    <img width="144" height="144" src="https://img.icons8.com/color/144/adobe-photoshop--v1.png"
+                        alt="adobe-photoshop--v1" />
+                    <h3>Photoshop</h3>
+                </div>
+                <div class="skill "><img width="144" height="144"
+                        src="https://img.icons8.com/color/144/adobe-illustrator--v1.png" alt="adobe-illustrator--v1" />
+                    <h3>Illustration</h3>
+                </div>
+                <div class="skill"><img width="144" height="144" src="https://img.icons8.com/color/144/blender-3d.png"
+                        alt="blender-3d" />
+                    <h3>Blender 3D</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <h1>
+            My Latest Projects
+        </h1>
+        <div class="pro-container">
+            <div class="p-box">
+                <div class="p-img"><img src="/img/calculator.png" alt="calculator-image"></div>
+                <div class="p-content">
+                    <h1>Calculator</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, neque minus. Illum iste
+                        consequuntur suscipit debitis, delectus est totam natus recusandae officiis. Itaque iure,
+                        maiores officiis totam reiciendis alias! Repellat quaerat vel modi sint quos. Cupiditate ipsa
+                        quidem optio molestias.</p>
+                    <div class="linkss">
+                        <a href="https://github.com/Sumitc0de/calculator" target="_blank"><ion-icon name="logo-github"
+                                class="p-icons" id="github"></ion-icon></a>
+                        <a href="https://sumitc0de.github.io/calculator/" target="_blank"><ion-icon name="globe-outline"
+                                class="p-icons" id="globe"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="p-box">
+                <div class="p-img"><img src="/img/ToDo.png" alt="Todolist"></div>
+                <div class="p-content">
+                    <h1>To-Do-List App</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, neque minus. Illum iste
+                        consequuntur suscipit debitis, delectus est totam natus recusandae officiis. Itaque iure,
+                        maiores officiis totam reiciendis alias! Repellat quaerat vel modi sint quos. Cupiditate ipsa
+                        quidem optio molestias.</p>
+                    <div class="linkss">
+                        <a href=""><ion-icon name="logo-github" class="p-icons" id="github"
+                                target="_blank"></ion-icon></a>
+                        <a href=""><ion-icon name="globe-outline" class="p-icons" id="globe"
+                                target="_blank"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="p-box">
+                <div class="p-img"><img src="/img/bgcolor.png" alt="bgcolor"></div>
+                <div class="p-content">
+                    <h1>BG Changing-Color App</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, neque minus. Illum iste
+                        consequuntur suscipit debitis, delectus est totam natus recusandae officiis. Itaque iure,
+                        maiores officiis totam reiciendis alias! Repellat quaerat vel modi sint quos. Cupiditate ipsa
+                        quidem optio molestias.</p>
+                    <div class="linkss">
+                        <a href="https://github.com/Sumitc0de/Javascript_projects_beginner"><ion-icon name="logo-github"
+                                class="p-icons" id="github"></ion-icon></a>
+                        <a href="https://sumitc0de.github.io/Javascript_projects_beginner/"><ion-icon
+                                name="globe-outline" class="p-icons" id="globe"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="p-box">
+                <div class="p-img"><img src="/img/jsslider.png" alt="Js-slider"></div>
+                <div class="p-content">
+                    <h1>Javascript Slider</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, neque minus. Illum iste
+                        consequuntur suscipit debitis, delectus est totam natus recusandae officiis. Itaque iure,
+                        maiores officiis totam reiciendis alias! Repellat quaerat vel modi sint quos. Cupiditate ipsa
+                        quidem optio molestias.</p>
+                    <div class="linkss">
+                        <a href=""><ion-icon name="logo-github" class="p-icons" id="github"></ion-icon></a>
+                        <a href=""><ion-icon name="globe-outline" class="p-icons" id="globe"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h1 style="text-align: center; margin-top: 25px;">Clone Website's</h1>
+            <div class="p-box">
+                <div class="p-img"><img src="/img/zomato.png" alt="Zomato"></div>
+                <div class="p-content">
+                    <h1>Zomato Clone Web.</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, neque minus. Illum iste
+                        consequuntur suscipit debitis, delectus est totam natus recusandae officiis. Itaque iure,
+                        maiores officiis totam reiciendis alias! Repellat quaerat vel modi sint quos. Cupiditate ipsa
+                        quidem optio molestias.</p>
+                    <div class="linkss">
+                        <a href=""><ion-icon name="logo-github" class="p-icons" id="github"></ion-icon></a>
+                        <a href=""><ion-icon name="globe-outline" class="p-icons" id="globe"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-video"><video src="/img/zomato.mp4" controls></video></div>
+            <hr>
+            <div class="p-box">
+                <div class="p-img"><img src="/img/myntra.png" alt="myntra"></div>
+                <div class="p-content">
+                    <h1>Myntra Clone Web.</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, neque minus. Illum iste
+                        consequuntur suscipit debitis, delectus est totam natus recusandae officiis. Itaque iure,
+                        maiores officiis totam reiciendis alias! Repellat quaerat vel modi sint quos. Cupiditate ipsa
+                        quidem optio molestias.</p>
+                    <div class="linkss">
+                        <a href="https://github.com/Sumitc0de/Myntra-clone/"><ion-icon name="logo-github"
+                                class="p-icons" id="github"></ion-icon></a>
+                        <a href="https://myntra-clone-coral.vercel.app/"><ion-icon name="globe-outline" class="p-icons"
+                                id="globe"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-video"><video src="/img/myntra.mp4" controls></video></div>
+            <hr>
+            <div class="p-box">
+                <div class="p-img"><img src="/img/doctor.png" alt="Zomato"></div>
+                <div class="p-content">
+                    <h1>Zomato Clone Web.</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, neque minus. Illum iste
+                        consequuntur suscipit debitis, delectus est totam natus recusandae officiis. Itaque iure,
+                        maiores officiis totam reiciendis alias! Repellat quaerat vel modi sint quos. Cupiditate ipsa
+                        quidem optio molestias.</p>
+                    <div class="linkss">
+                        <a href="https://github.com/Sumitc0de/Doctor_appointment_webapp/" target="_blank"><ion-icon
+                                name="logo-github" class="p-icons" id="github"></ion-icon></a>
+                        <a href="https://doctor-appointment-webapp-eta.vercel.app/index.html" target="_blank"><ion-icon
+                                name="globe-outline" class="p-icons" id="globe"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-video"><video src="/img/doctor.mp4" controls></video></div>
+
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-page">
+                <h1>GET IN
+                    <span>TOUCH</span>
+                </h1>
+                <form action="">
+                    <div class="input-wraper">
+                    <div class="input-box">
+                        <ion-icon name="person" class="contact-icon"></ion-icon>
+                        <input type="text" placeholder="Your Name">
+                    </div>
+                    <div class="input-box">
+                        <ion-icon name="call" class="contact-icon"></ion-icon>
+                        <input type="text" placeholder="+91:0258324395">
+                    </div>
+                </div>
+                    <div class="input-wraper">
+                    <div class="input-box">
+                        <ion-icon name="mail" class="contact-icon"></ion-icon>
+                        <input type="email" placeholder="adam24@gmail.com">
+                    </div>
+                    <div class="input-box">
+                        <ion-icon name="lock-closed" class="contact-icon"></ion-icon>
+                        <input type="password" placeholder="*********">
+                    </div>
+                </div>
+                <H3>MESSAGE</H3>
+                <textarea name="" id="" wrap="hard"></textarea>
+                <button class="submit" id="submit">Submit</button>
+                </form>
+                
+
+            </div>
+            <div class="contact-info"></div>
+          
+        </div>
+    </section>
 
 
 
@@ -82,8 +358,13 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+    <!----------------------------------------------- GSAP CDN  ------------------------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
     <script>
         var typed = new Typed('#element', {
             strings: ['Frontend Developer,', '3D Animator,', '3D Modeller,', 'YouTuber,', '&amp; a Video Editor.'],
